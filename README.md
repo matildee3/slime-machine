@@ -1,5 +1,5 @@
-# slime-machine
 
+# slime machine 
 
 This repository contains the AAARDM.py script, developed as part of Matilde Sartori's Master's Degree Thesis for the Design Research Course at BAU - College of Arts and Design of Barcelona & Universitat de Vic - Universitat Central de Catalunya (2024).
 
@@ -22,15 +22,17 @@ AAARDM.py is a computer vision algorithm inspired by the behavior of slime mould
 ## Installation
 
 To install the required libraries, run:
-```bash
+\`\`\`bash
 pip install requests numpy matplotlib scipy pillow mealpy
-```
+\`\`\`
 
 ## Usage
 
+The script can be run as follows:
+\`\`\`python
 import aaardm
 
-```bash
+# Example usage
 api_key = 'YOUR_API_KEY'
 true_random_seed = aaardm.generate_random_numbers(api_key, 1, 1, 1000000)
 
@@ -40,6 +42,32 @@ g_best = model.solve(aaardm.problem_dict)
 
 # Display the results
 aaardm.display_results(g_best)
+\`\`\`
 
-```
+## Credits
 
+The base of the code is credited to:
+
+@article{van2023mealpy,
+   title={MEALPY: An open-source library for latest meta-heuristic algorithms in Python},
+   author={Van Thieu, Nguyen and Mirjalili, Seyedali},
+   journal={Journal of Systems Architecture},
+   year={2023},
+   publisher={Elsevier},
+   doi={10.1016/j.sysarc.2023.102871}
+}
+
+@article{van2023groundwater,
+   title={Groundwater level modeling using Augmented Artificial Ecosystem Optimization},
+   author={Van Thieu, Nguyen and Barma, Surajit Deb and Van Lam, To and Kisi, Ozgur and Mahesha, Amai},
+   journal={Journal of Hydrology},
+   volume={617},
+   pages={129034},
+   year={2023},
+   publisher={Elsevier},
+   doi={10.1016/j.jhydrol.2022.129034}
+}
+
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/).

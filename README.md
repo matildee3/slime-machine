@@ -24,3 +24,22 @@ AAARDM.py is a computer vision algorithm inspired by the behavior of slime mould
 To install the required libraries, run:
 ```bash
 pip install requests numpy matplotlib scipy pillow mealpy
+```
+
+## Usage
+
+import aaardm
+
+```bash
+api_key = 'YOUR_API_KEY'
+true_random_seed = aaardm.generate_random_numbers(api_key, 1, 1, 1000000)
+
+# Initialize and solve the optimization problem
+model = aaardm.DevSMA(epoch=30000, pop_size=200, p_t=0.05)
+g_best = model.solve(aaardm.problem_dict)
+
+# Display the results
+aaardm.display_results(g_best)
+
+```
+

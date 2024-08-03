@@ -5,7 +5,7 @@
 ![Alt text](images/slime.png)
 
 
-This repository contains the AAARDM.py script, which is the philosophical artifact presented in my thesis. 
+This repository contains the AAARDM.py script, which is the philosophical artifact presented  in my [thesis](slime_machines.pdf). 
 
 ## Overview
 

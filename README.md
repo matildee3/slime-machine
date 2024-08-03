@@ -32,21 +32,24 @@ pip install requests numpy matplotlib scipy pillow mealpy
 
 ## Usage
 
-The script can be run as follows:
-```python
-import aaardm
+To use the script, follow these steps:
 
-# Example usage
-api_key = 'YOUR_API_KEY'
-true_random_seed = aaardm.generate_random_numbers(api_key, 1, 1, 1000000)
-
-# Initialize and solve the optimization problem
-model = aaardm.DevSMA(epoch=30000, pop_size=200, p_t=0.05)
-g_best = model.solve(aaardm.problem_dict)
-
-# Display the results
-aaardm.display_results(g_best)
-```
+1. Download the repository: Clone the repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/yourusername/slime_machine.git
+   ```
+2. Navigate to the directory: Change into the repository directory:
+    ```bash
+   cd slime_machine
+   ```
+3. Replace "YOUR_API_KEY" with your API key from [random.org](https://api.random.org/api-keys)
+   ```python
+   api_key = 'YOUR_API_KEY'
+   ```
+4. Play with the parameters: You can adjust the epoch, pop_size, and p_t parameters in the model to see how they affect the results.
+   ```python
+   model = aaardm.DevSMA(epoch=30000, pop_size=200, p_t=0.05)
+   ```
 
 ## Credits
 

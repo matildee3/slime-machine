@@ -49,7 +49,7 @@ def generate_random_numbers(api_key, num_numbers, min_value, max_value):
 
 
 
-api_key = 'YYOUR_API_KEY'
+api_key = 'YOUR_API_KEY'
 true_random_seed = generate_random_numbers(api_key, 1, 1, 1000000)  
 
 np.random.seed(true_random_seed)  # the truly random seed
@@ -175,7 +175,7 @@ class OriginalSMA(DevSMA):
 
 
 
-img = imread('pacman.jpg') 
+img = imread('images/pacman.jpg') 
 # if len(img.shape) > 2:
 #     img = img[:, :, 0]  # Convert to grayscale if it's not already
 

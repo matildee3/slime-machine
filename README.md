@@ -1,7 +1,9 @@
 
 # slime machine 
 
-This repository contains the AAARDM.py script, developed as part of Matilde Sartori's Master's Degree Thesis for the Design Research Course at BAU - College of Arts and Design of Barcelona & Universitat de Vic - Universitat Central de Catalunya (2024).
+
+
+This repository contains the AAARDM.py script, which is the philosophical artifact presented in my thesis. 
 
 ## Overview
 

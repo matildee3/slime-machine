@@ -2,7 +2,7 @@
 # slime machine 
 
 
-![Alt text](images/epoch_20000.png)
+![Alt text](images/slime.png)
 
 
 This repository contains the AAARDM.py script, which is the philosophical artifact presented in my thesis. 
